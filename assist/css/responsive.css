@@ -1,0 +1,850 @@
+* {
+  outline: none;
+}
+
+/* X-Small devices (portrait phones, less than 576px) */
+::-webkit-scrollbar {
+  background-color: transparent;
+  width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #1f4e4a;
+  border-radius: 9px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+@media (min-width: 320px) and (max-width: 575px) {
+  /* HEDAER PART HERE  */
+
+  .header {
+    height: 60px;
+  }
+
+  .navbar .navbar-brand img {
+    height: 35px;
+  }
+
+  .navbar-light .navbar-toggler {
+    border-color: transparent;
+    color: transparent;
+  }
+
+  .navbar-collapse {
+    background-color: #fff;
+    text-align: center;
+    margin-top: 20px;
+    border: 1px solid #1f4e4a;
+  }
+
+  .navbar .nav-item .nav-link {
+    font-size: 12px;
+  }
+
+  /* BANNER PART HERE  */
+
+  .banner {
+    height: 570px;
+    background-image: url(../img/mobile/banner.jpg);
+    background-repeat: initial;
+  }
+
+  .banner_text {
+    padding: 0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 85px;
+  }
+
+  .banner_text h6 {
+    font-size: 15px;
+  }
+
+  .header_name {
+    font-size: 50px;
+  }
+
+  .text_bold {
+    font-size: 70px;
+  }
+
+  .banner_img {
+    display: none;
+  }
+
+  /* BANNER PART END HERE  */
+
+  /* ABOUT PART HERE  */
+
+  .about {
+    height: auto;
+    background-color: rgba(252, 252, 252, 0.5);
+  }
+
+  .about_img {
+    height: 370px;
+    padding: 50px 0px;
+  }
+
+  .about_img img {
+    padding: 0;
+    height: 280px;
+  }
+
+  .about_text {
+    padding: 0px 15px 10px;
+    height: 420px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+  }
+
+  .about_headline h1 {
+    font-size: 25px;
+  }
+
+  .about_text p {
+    font-size: 15px;
+  }
+
+  .about_button {
+    font-size: 12px;
+  }
+
+  /* ABOUT PART END HERE  */
+
+  /* SKILLS BAR HERE  */
+
+  .skills {
+    height: auto;
+  }
+
+  .skill-bars {
+    width: 300px;
+    padding-top: 80px;
+  }
+
+  .skill-bars .bar .info span {
+    font-size: 14px;
+  }
+
+  .progress-line span::after {
+    font-size: 10px;
+  }
+
+  .progress-line span::before {
+    top: -13px;
+  }
+
+  .skill-img img {
+    display: none;
+  }
+
+  /* SKILLS BAR END HERE  */
+
+  /* PORTFOLIO PART HERE  */
+
+  .port_but {
+    height: auto;
+    padding-top: 70px;
+    display: block;
+    text-align: center;
+  }
+
+  .port_but button {
+    padding: 2px 5px;
+    font-size: 17px;
+    margin: 4px 0px;
+  }
+
+  .port_img {
+    margin-top: 20px;
+  }
+
+  /* PORTFOLIO PART  END HERE  */
+
+  /* HEADELINE  */
+
+  .headline h1 {
+    font-size: 35px;
+  }
+
+  /* HEADELINE END   */
+
+  /* SERVICE PART HERE  */
+
+  .service {
+    height: auto;
+  }
+
+  .service_inner {
+    width: auto;
+    height: auto;
+  }
+
+  .service_text p {
+    margin: 0;
+    margin-bottom: 5px;
+  }
+
+  .service_inner.web {
+    border-right: 0;
+  }
+
+  .service_inner.graphic {
+    border-left: 0;
+  }
+
+  .service_inner.respons {
+    border-right: 0;
+  }
+
+  .service_inner.seo {
+    border-color: #458b7c;
+    padding-top: 20px;
+    padding-bottom: 7px;
+    border-left: 0;
+  }
+
+  .service_inner.web {
+    margin-top: 50px;
+  }
+
+  .service_inner.respons {
+    border-top: transparent;
+    margin-bottom: 8px;
+  }
+
+  .service_inner.graphic {
+    margin-top: 20px;
+  }
+
+  .ser_img {
+    display: none;
+  }
+
+  /* SERVICE PART END HERE  */
+
+  /* CONTACT PART HERE  */
+
+  .contact {
+    height: auto;
+  }
+
+  .contact_img {
+    height: 300px;
+    padding: 0px 20px;
+  }
+
+  .cont_text {
+    padding: 0px 10px;
+  }
+
+  .text_button {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 40px;
+  }
+
+  /* CONTACT PART END HERE  */
+
+  /* FOOTER PART HERE  */
+
+  .footer {
+    height: auto;
+  }
+
+  .underline {
+    text-align: center;
+  }
+
+  .footer_text p {
+    padding-right: 0;
+  }
+
+  .footer_icon ul {
+    justify-content: center;
+  }
+
+  .footer_quick ul li {
+    text-align: center;
+  }
+
+  .icon_contact {
+    justify-content: flex-end;
+  }
+
+  .icon_contact_text {
+    padding-right: 50px;
+  }
+
+  .contact_footer {
+    padding-bottom: 40px;
+  }
+
+  /* FOOTER PART END HERE  */
+}
+
+/* No media query for `xs` since this is the default in Bootstrap */
+
+/* Small devices (landscape phones, 576px and up) */
+
+@media (min-width: 576px) and (max-width: 767px) {
+  /* HEDAER PART HERE  */
+  .header {
+    height: 70px;
+  }
+
+  .navbar .navbar-brand img {
+    height: 50px;
+  }
+
+  .navbar-light .navbar-toggler {
+    border-color: transparent;
+    color: transparent;
+  }
+
+  .navbar-collapse {
+    background-color: #fff;
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .navbar .nav-item .nav-link {
+    font-size: 20px;
+  }
+
+  /* BANNER PART HERE  */
+
+  .banner {
+    height: 570px;
+    background-image: url(../img/mobile/banner.jpg);
+    background-repeat: initial;
+  }
+
+  .banner_text {
+    padding: 0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 85px;
+  }
+
+  .banner_text h6 {
+    font-size: 22px;
+  }
+
+  .header_name {
+    font-size: 45px;
+  }
+
+  .text_bold {
+    font-size: 80px;
+  }
+
+  .banner_img {
+    display: none;
+  }
+
+  /* BANNER PART END HERE  */
+
+  /* ABOUT PART HERE  */
+
+  .about {
+    height: auto;
+    background-color: rgba(252, 252, 252, 0.5);
+  }
+
+  .about_img {
+    height: 530px;
+    padding: 50px 0px;
+  }
+
+  .about_img img {
+    padding: 0;
+    height: 472px;
+  }
+
+  .about_text {
+    padding: 0px 15px 10px;
+    height: 420px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+  }
+
+  .about_headline h1 {
+    font-size: 40px;
+  }
+
+  .about_text p {
+    font-size: 19px;
+  }
+
+  .about_button {
+    font-size: 18px;
+  }
+
+  /* ABOUT PART END HERE  */
+
+  /* SKILLS BAR HERE  */
+
+  .skills {
+    height: auto;
+  }
+
+  .skill-bars {
+    width: 525px;
+    padding-top: 80px;
+  }
+
+  .skill-bars .bar .info span {
+    font-size: 14px;
+  }
+
+  .progress-line span::after {
+    font-size: 10px;
+  }
+
+  .progress-line span::before {
+    top: -13px;
+  }
+
+  .skill-img {
+    text-align: center;
+  }
+
+  .skill-img img {
+    height: 410px;
+  }
+
+  /* SKILLS BAR END HERE  */
+
+  /* PORTFOLIO PART HERE  */
+
+  .port_but {
+    height: auto;
+    padding-top: 70px;
+    display: block;
+    text-align: center;
+  }
+
+  .port_but button {
+    padding: 2px 12px;
+    font-size: 22px;
+    margin: 4px 0px;
+  }
+
+  .port_img {
+    margin-top: 20px;
+  }
+
+  /* PORTFOLIO PART  END HERE  */
+
+  /* HEADELINE  */
+
+  .headline h1 {
+    font-size: 50px;
+    margin-bottom: 30px;
+  }
+
+  /* HEADELINE END   */
+
+  /* SERVICE PART HERE  */
+
+  .service {
+    height: auto;
+  }
+
+  .service_inner {
+    width: 50%;
+    height: auto;
+  }
+
+  .service_text p {
+    margin: 0;
+    margin-bottom: 5px;
+  }
+
+  .service_inner.seo {
+    border-color: #458b7c;
+    padding-top: 20px;
+    padding-bottom: 7px;
+  }
+
+  .service_inner.web {
+    margin-top: 20px;
+  }
+
+  .service_inner.respons {
+    margin-bottom: 8px;
+  }
+
+  .service_inner.graphic {
+    margin-top: 20px;
+  }
+
+  .ser_img {
+    display: none;
+  }
+
+  /* SERVICE PART END HERE  */
+
+  /* CONTACT PART HERE  */
+
+  .contact {
+    height: auto;
+  }
+
+  .contact_img {
+    height: 440px;
+    padding: 0px 30px;
+  }
+
+  .cont_text {
+    padding: 0px 10px;
+  }
+
+  .text_button {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 40px;
+  }
+
+  .text_button button {
+    font-size: 18px;
+  }
+
+  .text_inp2 textarea {
+    font-size: 15px;
+  }
+
+  .text_inp input {
+    font-size: 15px;
+  }
+
+  /* CONTACT PART END HERE  */
+
+  /* FOOTER PART HERE  */
+
+  .footer {
+    height: auto;
+  }
+
+  .underline {
+    text-align: center;
+  }
+
+  .footer_text p {
+    padding-right: 0;
+  }
+
+  .footer_icon ul {
+    justify-content: center;
+  }
+
+  .footer_quick ul li {
+    text-align: center;
+  }
+
+  .icon_contact {
+    justify-content: flex-end;
+  }
+
+  .icon_contact_text {
+    padding-right: 50px;
+  }
+
+  .contact_footer {
+    padding-bottom: 40px;
+  }
+
+  /* FOOTER PART END HERE  */
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 992px) {
+  /* HEDAER PART HERE  */
+
+  .header {
+    height: 68px;
+  }
+
+  .navbar .navbar-brand img {
+    height: 42px;
+  }
+
+  .navbar-light .navbar-toggler {
+    border-color: transparent;
+    color: transparent;
+  }
+
+  .navbar-collapse {
+    background-color: #fff;
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .navbar .nav-item .nav-link {
+    font-size: 15px;
+  }
+
+  /* BANNER PART HERE  */
+
+  .banner {
+    height: 475px;
+  }
+
+  .banner_text h6 {
+    font-size: 18px;
+  }
+
+  .header_name {
+    font-size: 48px;
+  }
+
+  .text_bold {
+    font-size: 72px;
+  }
+
+  .banner_text {
+    padding-left: 65px;
+    padding-top: 35px;
+  }
+
+  /* BANNER PART END HERE  */
+
+  /* ABOUT PART HERE  */
+
+  .about {
+    height: 470px;
+  }
+
+  .about_headline h1 {
+    font-size: 25px;
+  }
+
+  .about_text p {
+    font-size: 13px;
+  }
+
+  .about_img {
+    height: 450px;
+  }
+
+  .about_img img {
+    padding: 0;
+  }
+
+  /* ABOUT PART END  HERE  */
+
+  /* SERVICE PART HERE  */
+
+  /* SKILLS BAR HERE  */
+
+  .skills {
+    height: auto;
+  }
+
+  .skill-bars {
+    width: 370px;
+  }
+
+  .skill-bars .bar .info span {
+    font-size: 12px;
+  }
+
+  .progress-line span::after {
+    font-size: 10px;
+  }
+
+  .progress-line span::before {
+    top: -13px;
+  }
+
+  .skill-img {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  /* SKILLS BAR END HERE  */
+
+  /* SERVICE PART END HERE  */
+
+  /* SERVICE PART HERE  */
+
+  .service {
+    height: auto;
+  }
+
+  .headline h1 {
+    font-size: 42px;
+  }
+
+  .ser_img {
+    height: 515px;
+  }
+
+  .service_inner {
+    width: 50%;
+    height: auto;
+  }
+
+  .respons .service_icon img {
+    height: 40px;
+    width: auto;
+  }
+
+  .service_icon {
+    height: 40px;
+    width: auto;
+  }
+
+  .web .service_icon img {
+    height: 40px;
+    width: auto;
+  }
+
+  .seo .service_icon img {
+    height: 40px;
+    width: auto;
+  }
+
+  .service_text h6 {
+    font-size: 16px;
+  }
+
+  .service_text p {
+    margin: 0;
+    font-size: 11px;
+    margin-bottom: 5px;
+  }
+
+  .service_inner.seo {
+    border-color: #458b7c;
+    padding-top: 20px;
+    padding-bottom: 7px;
+  }
+
+  .service_inner.web {
+    margin-top: 20px;
+  }
+
+  .service_inner.graphic {
+    margin-top: 20px;
+  }
+
+  .ser_img img {
+    height: auto;
+  }
+
+  /* SERVICE PART END HERE  */
+
+  /* PORTFOLIO PART HERE  */
+
+  .port_but {
+    height: 140px;
+  }
+
+  .portfolio_overflow h2 {
+    font-size: 25px;
+  }
+
+  .portfolio_overflow p {
+    font-size: 13px;
+    margin: 2px;
+  }
+
+  .port_but button {
+    font-size: 13px;
+  }
+
+  .port_icon a {
+    font-size: 17px;
+  }
+
+  /* PORTFOLIO PART END HERE  */
+
+  /* CONTACT PART HERE  */
+
+  .contact_img {
+    width: 370px;
+    padding: 0px 6px 0px 15px;
+  }
+
+  .cont_text {
+    padding: 0;
+  }
+
+  .underline h1 {
+    font-size: 24px;
+  }
+
+  .footer_text p {
+    font-size: 12px;
+  }
+
+  .footer_quick {
+    font-size: 12px;
+  }
+
+  .icon_contact_text {
+    font-size: 12px;
+  }
+
+  .footer_icon ul li a i {
+    font-size: 25px;
+  }
+
+  /* CONTACT PART END HERE  */
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199px) {
+  .progress_bar {
+    place-items: self-start;
+  }
+
+  .skill-bars {
+    width: 510px;
+  }
+
+  .skill-img img {
+    padding-top: 50px;
+  }
+
+  .service_inner {
+    width: 50%;
+    height: auto;
+  }
+
+  .service_text h6 {
+    font-size: 20px;
+  }
+
+  .service_inner.seo {
+    padding-top: 34px;
+  }
+
+  .ser_img img {
+    height: 390px;
+  }
+}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1399px) {
+}
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
+}
